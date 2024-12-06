@@ -33,7 +33,7 @@ header > h1 {
 i#burg {
 
     background-color: rgb(5, 0, 0);
-    color: aliceblue;
+    color: rgb(254, 255, 255);
     display: block;
     text-align: center;
     padding: 10px;
@@ -90,7 +90,7 @@ menu > ul > li > a:hover {
 main {
 
     width: 90vw;
-    background-color: white;
+    background-color: rgb(231, 241, 184);
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -101,8 +101,11 @@ article > h2 {
 
 
     padding-bottom: 10px;
+    text-align: center;
 
 }
+
+
 
 
 article > p {
