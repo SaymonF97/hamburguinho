@@ -5,12 +5,17 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+    font-size: 1,2em;
+
 
 }
 
 body, html {
 
-    background-color: rgba(221, 185, 119, 0.178);
+    background-color: rgba(109, 149, 235, 0.178);
+    background: url(../imagens/IMG_2297.JPG) no-repeat;
+    background-position: center;
+    background-size: cover;
 
 
 }
@@ -82,7 +87,7 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
 
 
-    background-color: rgba(255, 228, 196, 0.151);
+    background-color: rgba(200, 238, 197, 0.521);
 
 }
 
@@ -90,12 +95,15 @@ menu > ul > li > a:hover {
 main {
 
     width: 90vw;
-    background-color: rgb(231, 241, 184);
+    background-color: transparent;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.493);
 }
+
+
 
 article > h2 {
 
@@ -108,12 +116,23 @@ article > h2 {
 
 
 
+
+
 article > p {
 
 
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px  rgb(0, 0, 0);
     
 
+}
+
+article,b {
+
+    text-align: center;
+    padding: 15px;
+    margin: auto;
 }
